@@ -4,7 +4,6 @@ enableServer: false
 staticPodPath: /home/opc/k8s/kubelet-static-pod
 failSwapOn: false
 readOnlyPort: 10250
-cgroupDriver: "systemd"
 podCIDR: 10.241.1.0/24 # podCIDR is the CIDR to use for pod IP addresses, only used in standalone mode. In cluster mode, this is obtained from the control plane
 authentication:
   anonymous:
